@@ -1,0 +1,34 @@
+
+        #slider{
+            overflow: hidden;
+        }
+        #slider figure{
+            position:relative;
+            margin-bottom: 10%;
+            margin-left: 0;
+            left: 0;
+            flex-direction: column;
+            animation: 25s slider infinite;
+            width: 200%;
+            height: 500%;
+
+        }
+      #slider figure img{
+          float: left;
+          width:50%;
+      }
+      @keyframes slider{
+          0%{
+              left:0;
+          }
+          20%{
+              left: 0;
+          }
+          25%{
+              left:-100%;
+          }
+          45%{
+              left:-100%;
+          }
+      }
+    
